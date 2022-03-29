@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SistemaEstimacion</string>
+    <string name="password">Contraseña</string>
+    <string name="user">Usuario</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="title_activity_mapa">Mapa</string>
+    <string name="title_activity_simular">Simular</string>
+</resources>
