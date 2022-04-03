@@ -31,7 +31,7 @@ class Mapa : AppCompatActivity(), OnMapReadyCallback {
         mapFragment.getMapAsync(this)
 
 
-        imageButton.setOnClickListener {
+        imageButton2.setOnClickListener {
             val intent: Intent = Intent(this, Simular::class.java)
             startActivity(intent)
         }
@@ -40,7 +40,7 @@ class Mapa : AppCompatActivity(), OnMapReadyCallback {
     override fun onMapReady(googleMap: GoogleMap) {
         mMap = googleMap
 
-        val sydney = LatLng(-12.0621065, -77.0365256)
+        val sydney = LatLng(-11.9937594, -77.0766989)
         mMap.addMarker(MarkerOptions().position(sydney).title("Lima, Perú"))
         mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney))
     }

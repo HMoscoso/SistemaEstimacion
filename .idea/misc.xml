@@ -7,14 +7,17 @@
         <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/drawable/button_border.xml" value="0.2385" />
         <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/drawable/button_primary.xml" value="0.16" />
         <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/drawable/button_rounded.xml" value="0.2115" />
+        <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/drawable/s1_custom.xml" value="0.204" />
+        <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/drawable/s1_thumb.xml" value="0.204" />
         <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/drawable/seek_custom.xml" value="0.2755" />
         <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/drawable/seek_thumb.xml" value="0.2115" />
-        <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/layout/activity_mapa.xml" value="0.22" />
-        <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/layout/activity_rango.xml" value="0.33" />
+        <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/layout/activity_mapa.xml" value="0.1" />
+        <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/layout/activity_rango.xml" value="0.24740932642487046" />
+        <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/layout/activity_rango1.xml" value="0.1675929884566054" />
         <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/layout/activity_register.xml" value="0.25" />
         <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/layout/activity_resultado.xml" value="0.22" />
-        <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/layout/activity_simular.xml" value="0.33439693682195276" />
+        <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/layout/activity_simular.xml" value="0.335042735042735" />
         <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/mipmap-anydpi-v26/Logo.xml" value="0.2385" />
         <entry key="..\:/Users/hilla/AndroidStudioProjects/SistemaEstimacion/app/src/main/res/mipmap-anydpi-v26/Logo_round.xml" value="0.2385" />
       </map>

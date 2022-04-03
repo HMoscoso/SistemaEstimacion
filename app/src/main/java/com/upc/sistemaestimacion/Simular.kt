@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.SeekBar
 
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
@@ -14,7 +15,9 @@ import com.google.android.gms.maps.model.LatLng
 import com.google.android.gms.maps.model.MarkerOptions
 import com.upc.sistemaestimacion.databinding.ActivitySimularBinding
 import kotlinx.android.synthetic.main.activity_mapa.*
+import kotlinx.android.synthetic.main.activity_rango.*
 import kotlinx.android.synthetic.main.activity_simular.*
+import kotlinx.android.synthetic.main.activity_simular.btnSim
 
 class Simular : AppCompatActivity(), OnMapReadyCallback {
 
@@ -35,7 +38,43 @@ class Simular : AppCompatActivity(), OnMapReadyCallback {
             val intent: Intent = Intent(this, Resultado::class.java)
             startActivity(intent)
         }
+
+        sBar1.setOnSeekBarChangeListener(object : SeekBar.OnSeekBarChangeListener{
+            override fun onProgressChanged(seekBar: SeekBar, progress: Int, fromUser: Boolean) {
+                if (progress.toInt() == 0){
+                    textView11.text = "1"
+                } else if (progress.toInt() == 1){
+                    textView11.text = "           2"
+                } else if (progress.toInt() == 2){
+                    textView11.text = "                      3"
+                } else if (progress.toInt() == 3){
+                    textView11.text = "                                 4"
+                } else if (progress.toInt() == 4){
+                    textView11.text = "                                            5"
+                } else if (progress.toInt() == 5){
+                    textView11.text = "                                                       6"
+                } else if (progress.toInt() == 6){
+                    textView11.text = "                                                                  7"
+                } else if (progress.toInt() == 7){
+                    textView11.text = "                                                                             8"
+                } else if (progress.toInt() == 8){
+                    textView11.text = "                                                                                        9"
+                } else if (progress.toInt() == 9){
+                    textView11.text = "                                                                                                  10"
+                }
+            }
+
+            override fun onStartTrackingTouch(p0: SeekBar?) {
+
+            }
+
+            override fun onStopTrackingTouch(p0: SeekBar?) {
+
+            }
+        })
     }
+
+
 
     /**
      * Manipulates the map once available.

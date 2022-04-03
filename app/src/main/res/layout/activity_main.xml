@@ -4,60 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="@color/background"
     tools:context=".MainActivity">
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="96dp"
-        android:layout_height="91dp"
-        android:layout_marginTop="50dp"
+        android:layout_width="293dp"
+        android:layout_height="157dp"
+        android:layout_marginTop="44dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo" />
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
-        android:text="Sistema de Estimación de Daños Sísmicos"
-        android:textAlignment="textStart"
-        android:textColor="#8D4E4E4E"
-        android:textSize="16dp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
-
-    <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
-        android:text="Iniciar Sesión"
-        android:textColor="#4E4E4E"
-        android:textSize="30sp"
+        android:layout_marginTop="153dp"
+        android:text="Earth Alert"
+        android:textColor="@color/primary"
+        android:textSize="35sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
         android:layout_width="292dp"
         android:layout_height="51dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/primary"
         android:ems="10"
         android:hint="@string/user"
         android:inputType="textPersonName"
-        android:textColor="#8D4E4E4E"
-        android:textColorHint="#8D4E4E4E"
+        android:textColor="@color/primary"
+        android:textColorHint="@color/secondary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        android:backgroundTint="@color/primary"/>
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
 
     <EditText
         android:id="@+id/editTextTextPassword3"
@@ -67,8 +54,8 @@
         android:ems="10"
         android:hint="@string/password"
         android:inputType="textPassword"
-        android:textColor="#8D4E4E4E"
-        android:textColorHint="#8D4E4E4E"
+        android:textColor="@color/primary"
+        android:textColorHint="@color/secondary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
@@ -94,25 +81,22 @@
         android:layout_marginBottom="32dp"
         android:background="@drawable/button_border"
         android:text="Registrate"
-        android:textColor="@color/primary"
+        android:textColor="@color/alter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.868"
+        app:layout_constraintHorizontal_bias="0.831"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="44dp"
-        android:text="¿No tienes una cuenta?"
-        android:textColor="#8D4E4E4E"
+        android:layout_marginStart="56dp"
+        android:layout_marginBottom="48dp"
+        android:text="¿Nuevo usuario?"
+        android:textColor="@color/soft_primary"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button2"
-        app:layout_constraintHorizontal_bias="0.942"
         app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

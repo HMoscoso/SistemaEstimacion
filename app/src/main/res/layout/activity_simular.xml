@@ -35,7 +35,7 @@
             android:id="@+id/view5"
             android:layout_width="348dp"
             android:layout_height="332dp"
-            android:background="#FFFFFF"
+            android:background="@color/background"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.492"
@@ -48,27 +48,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="INICIAR SIMULACIÓN DE SISMOS"
-            android:textColor="#4E4E4E"
-            android:textSize="18sp"
+            android:textColor="@color/primary"
+            android:textSize="20sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="@+id/view5"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@+id/view5"
-            app:layout_constraintVertical_bias="0.143" />
+            app:layout_constraintVertical_bias="0.114" />
 
         <SeekBar
-            android:id="@+id/seekBar3"
+            android:id="@+id/sBar1"
             android:layout_width="213dp"
             android:layout_height="37dp"
             android:layout_marginTop="20dp"
-            android:backgroundTint="@color/primary"
-            android:max="10"
+            android:max="9"
             android:min="0"
-            android:progress="5"
-            android:progressBackgroundTint="@color/primary"
+            android:progress="4"
+            android:progressDrawable="@drawable/s1_custom"
+            android:thumb="@drawable/s1_thumb"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.729"
+            app:layout_constraintHorizontal_bias="0.742"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
@@ -76,31 +76,33 @@
             android:id="@+id/editTextTextPersonName"
             android:layout_width="186dp"
             android:layout_height="38dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="28dp"
             android:backgroundTint="@color/primary"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textColor="#8D4E4E4E"
-            android:textColorHint="#8D4E4E4E"
+            android:textColor="@color/primary"
+            android:textColorHint="@color/secondary"
+            android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="@+id/view5"
             app:layout_constraintHorizontal_bias="0.777"
             app:layout_constraintStart_toStartOf="@+id/view5"
-            app:layout_constraintTop_toBottomOf="@+id/seekBar3" />
+            app:layout_constraintTop_toBottomOf="@+id/sBar1" />
 
         <EditText
             android:id="@+id/editTextTextPersonName2"
             android:layout_width="186dp"
             android:layout_height="38dp"
-            android:layout_marginTop="72dp"
+            android:layout_marginTop="88dp"
             android:backgroundTint="@color/primary"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textColor="#8D4E4E4E"
-            android:textColorHint="#8D4E4E4E"
+            android:textColor="@color/primary"
+            android:textColorHint="@color/secondary"
+            android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="@+id/view5"
             app:layout_constraintHorizontal_bias="0.777"
             app:layout_constraintStart_toStartOf="@+id/view5"
-            app:layout_constraintTop_toBottomOf="@+id/seekBar3" />
+            app:layout_constraintTop_toBottomOf="@+id/sBar1" />
 
         <Button
             android:id="@+id/btnSim"
@@ -121,11 +123,12 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:text="Magnitud"
-            android:textColor="#BC000000"
+            android:textColor="@color/primary"
+            android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/view5"
             app:layout_constraintTop_toTopOf="@+id/view"
-            app:layout_constraintVertical_bias="0.432" />
+            app:layout_constraintVertical_bias="0.406" />
 
         <TextView
             android:id="@+id/textView6"
@@ -133,11 +136,11 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:text="Epicentro"
-            android:textColor="#BC000000"
+            android:textColor="@color/primary"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/view5"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.567" />
+            app:layout_constraintVertical_bias="0.579" />
 
         <TextView
             android:id="@+id/textView7"
@@ -145,10 +148,49 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:text="Profundidad"
-            android:textColor="#BC000000"
+            android:textColor="@color/primary"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="@+id/view5"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.488" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="(Escala de Ritcher)"
+            android:textColor="@color/primary"
+            android:textSize="8sp"
+            app:layout_constraintStart_toStartOf="@+id/view5"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="108dp"
+            android:text="                                            5"
+            android:textColor="@color/primary"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/view5"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/textView10"
+            app:layout_constraintTop_toTopOf="@+id/view5" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:text="(En kilómetros)"
+            android:textColor="@color/primary"
+            android:textSize="8sp"
+            app:layout_constraintEnd_toEndOf="@+id/view5"
+            app:layout_constraintHorizontal_bias="0.003"
+            app:layout_constraintStart_toStartOf="@+id/view5"
+            app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

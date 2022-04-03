@@ -7,7 +7,11 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="primary">#042b7b</color>
+    <color name="primary">#55392b</color>
+    <color name="soft_primary">#ba846a</color>
+    <color name="background">#f9ede4</color>
+    <color name="alter">#e6896a</color>
+    <color name="secondary">#8ea3a6</color>
     <color name="seek_bar_background">#ababab</color>
     <color name="seek_bar_progress">#FFFFFFFF</color>
     <color name="seek_bar_secondary_progress">#3399CC</color>

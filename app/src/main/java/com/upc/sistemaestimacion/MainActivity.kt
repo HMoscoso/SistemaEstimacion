@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
         btnIng.setOnClickListener {
-            val intent: Intent = Intent(this, Rango::class.java)
+            val intent: Intent = Intent(this, Rango1::class.java)
             startActivity(intent)
         }
     }
